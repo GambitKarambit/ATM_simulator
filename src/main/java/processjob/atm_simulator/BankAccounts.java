@@ -15,8 +15,12 @@ public class BankAccounts {
         bankAccountList.put(6, 1000.00);
 
 
-        bankAccountList.containsKey(1);
-        return(bankAccountList.get(accountNr));
+        if (bankAccountList.containsKey(accountNr)){
+            log("")
+            return(bankAccountList.get(accountNr));
+        };
+
+
     }
 
 
