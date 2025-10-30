@@ -16,9 +16,14 @@ public class BankAccounts {
 
 
         if (bankAccountList.containsKey(accountNr)){
-            log("")
+            System.out.println("Bank account number verified");
             return(bankAccountList.get(accountNr));
-        };
+        }
+        else{
+            System.out.println("Such account does not exist");
+            return(0);
+
+        }
 
 
     }
